@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_Form</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-32x32.png">
+    <link rel="manifest" href="favicon.png.ico">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <h1 style="color: rgb(142, 25, 25); text-align: center;">Student Enrollment Form</h1>
+        </div>
+        <div class="form">
+            <form id="form">
+                <div class="form1">
+                    <label>Name: </label>
+                    <input type="text" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form1">
+                    <label>Age: </label>
+                    <input type="number" id="age" placeholder="Enter Your Age">
+                </div>
+                <div class="form1">
+                    <label>Email: </label>
+                    <input type="email" id="email" placeholder="Enter Your Email id">
+                </div>
+                <div class="form1">
+                    <label>Gender: </label>
+                    <input type="radio" name="gender" id="male" value="Male" />
+                    Male
+                    <input type="radio" name="gender" id="female" value="Female" />
+                    Female
+                </div>
+
+                <div class="form1">
+                    <label>Skills: </label>
+                    <input id="java" type="checkbox" name="skills" value="JAVA"/>
+                    JAVA
+                    <input id="html" type="checkbox" name="skills" value="HTML"/>
+                    HTML
+                    <input id="css" type="checkbox" name="skills" value="CSS"/>
+                    CSS
+                </div>
+                <div class="form1">
+                    <button id="submit">Submit</button>
+                    <button id="cn">Cancel</button>
+                </div>
+            </form>
+        </div>
+        
+        <h2 style="color: rgb(9, 8, 8); text-align:center">Enrolled Students</h2>
+        <div class="record"></div>
+        <div>
+            <script src="script.js"></script>
+</body>
+
+</html>
